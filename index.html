@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Showing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #000;
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat";
+            color: #efefef;
+        }
+        .text{
+            position: absolute;
+            top: 30%;
+            width: 50%;
+            padding: 2%;
+            left: 0;
+            margin: auto;
+            right: 0;
+            font-size: 1.3rem;
+        }
+        .card{
+            display: flex;
+            justify-content: flex-start; align-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        button{
+            background-color: rgb(231, 51, 19);
+            border-radius: 4px;
+            padding: 2%;
+            border: none;
+            color: #efefef;
+            font-size: 1rem;
+        }
+        a{
+            width: 100%;
+        }
+        .card-btn{
+            border: 2px solid rgb(231, 51, 19);
+            background-color: transparent;
+            color: rgb(231, 51, 19);
+            padding: 5% 10%;
+        }
+        .image{
+            width: 100%;
+            height: 400px;
+        }
+        .cover{
+            width: 100%;
+            filter: blur(5px) brightness(80%);
+            height: 80%;
+            object-fit: cover;
+        }
+        tr{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        td{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3%;
+            align-content: flex-start; justify-content: flex-start;
+        }
+        table{
+            width: 100%;
+            margin-top: 5%;
+        }
+        </style>
+</head>
+<body>
+    <img class="cover" src="bg.jpg" alt="" width="100%">
+    <div class="text">
+        <h1>Welcome to Trailerflix</h1>
+        <p>Here you'll get the Knowledge about every single Most Demanding Moives</p>
+        <button>Get More Knowledge</button>
+    </div>
+    <h1 style="margin: auto; width: max-content; margin-top: 5%;">Top 3 Demanding Movies</h1>
+    <div class="cards">
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="pirates.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Pirates of Caribean</h2>
+                        <a href="pirates.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>   
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="spiderman.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>SpiderMan- No Way Home</h2>   
+                        <a href="spiderman.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="batman.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>The Batman</h2>
+                        <a href="batman.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td> 
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="baar.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Baar Baar Dekho</h2>
+                        <a href="baar.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>     
+            </tr>
+            <tr>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="kgf chp 2.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>K.G.F Chapter 2</h2>
+                        <a href="kgf chp 2.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>   
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="czarnobyl.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Chzarnobyl</h2>
+                        <a href="czarnobyl.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+              </td>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="avengers.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Avengers - Infinity War</h2>
+                        <a href="avengers.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>   
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="hulk.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>The Incredible Hulk</h2>
+                        <a href="hulk.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="peaky blinders.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Peaky Blinders</h2>
+                        <a href="peaky blinders.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>   
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="predestination.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Predestination</h2>
+                           <a href="predestination.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="hotel trans.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Hotel Translvynia - Transformania</h2>
+                        <a href="hotel trans.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>  
+                <td>
+                    <div class="card">
+                        <div class="image">
+                            <img src="doctor strange.jpg" alt="" width="100%" height="100%" style="object-fit: cover;">                
+                        </div>
+                        <h2>Doctor Strange in the Multiverse of Madness
+                        </h2>
+                        <a href="doctor strange.html" target="_blank">
+                            <button class="card-btn">Watch Trailer</button>
+                        </a>
+                    </div>
+                </td>    
+            </tr>
+        </table>
+      
+</body>
+</html>
